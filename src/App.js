@@ -4,14 +4,18 @@ function App() {
   return (
     <div className="App">
       <article>
-        <p>
-          The Statue of Liberty's torch heads to new museum
-          <br />
-          by Kate Farley (
-          <a href="mailto:kate.farley@nytimes.com">kate.farley@nytimes.com</a>)
-          <br />
-          November 22, 2018
-        </p>
+        <header>
+          <h1>The Statue of Liberty's torch heads to new museum</h1>
+          <p>
+            by Kate Farley (
+            <a href="mailto:kate.farley@nytimes.com">kate.farley@nytimes.com</a>
+            )
+          </p>
+          <p>
+            <time dateTime="2018-11-22">November 22, 2018</time>
+          </p>
+        </header>
+
         <p>The Statue of Liberty's original torch is getting a new home.</p>
         <p>
           Made of copper and gold so that it would shine bright, the first torch
@@ -32,7 +36,7 @@ function App() {
         <p>The history of the Statue of Liberty</p>
         <p>
           Not only is the Statue of Liberty the symbol of New York City, she is
-          also a UNESCO World Heritage site under the designation of{" "}
+          also a UNESCO World Heritage site under the designation of
           <em>Outstanding Universal Value</em>.
         </p>
         <p>
@@ -80,7 +84,7 @@ function App() {
           </li>
           <li>
             <p>
-              Height of the Statue from her heel to the top of her head is{" "}
+              Height of the Statue from her heel to the top of her head is
               <strong>111 feet, 6 inches</strong>
             </p>
           </li>
@@ -91,7 +95,7 @@ function App() {
           </li>
           <li>
             <p>
-              Total weight of the Statue of Liberty is <strong>225 tons</strong>{" "}
+              Total weight of the Statue of Liberty is <strong>225 tons</strong>
               (or <strong>450,000 pounds</strong>)
             </p>
           </li>
