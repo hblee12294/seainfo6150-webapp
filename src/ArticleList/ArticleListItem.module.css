@@ -2,8 +2,9 @@ li {
   list-style-type: none;
   margin-bottom: 2rem;
   padding: 1rem;
-  border: 1px solid #dd1919;
-  background-color: #fff;
+  color: #333;
+  border: 1px solid #cb0000;
+  background-color: #eee;
 }
 
 li:last-child {
@@ -12,7 +13,7 @@ li:last-child {
 
 h1 {
   margin-top: 0;
-  color: #dd1919;
+  color: #cb0000;
 }
 
 footer, address {

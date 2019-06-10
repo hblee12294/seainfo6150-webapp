@@ -2,4 +2,5 @@ ul {
   margin: 2rem;
   padding: 2rem;
   background-color: #a0a0a0;
+  border: 1px dashed #666;
 }
