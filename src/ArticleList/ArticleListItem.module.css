@@ -4,7 +4,10 @@ li {
   padding: 1rem;
   color: #333;
   border: 1px solid #cb0000;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #fec3cf 0%, #eee 8%);
   background-color: #eee;
+  box-shadow: 0px 0.5rem 0.5rem #606060;
 }
 
 li:last-child {
@@ -16,7 +19,8 @@ h1 {
   color: #cb0000;
 }
 
-footer, address {
+footer,
+address {
   text-align: right;
 }
 
