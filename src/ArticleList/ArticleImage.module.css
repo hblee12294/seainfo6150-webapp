@@ -1,9 +1,8 @@
-figure {
-  float: left;
-  margin: 0 1rem 0 0;
+.figure {
+  margin: 0 0 2rem 0;
 }
 
-img {
+.image {
   width: 10rem;
   border: 0.5rem solid #cb0000;
   border-radius: 50%;

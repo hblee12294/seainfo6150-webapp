@@ -1,23 +1,25 @@
 import React from "react";
-import "./ArticleListItem.module.css";
+import styles from "./ArticleListItem.module.css";
 
 import ArticleImage from "./ArticleImage";
 
 const ArticleListItem = ({ title, date, year, author, shortText, image }) => {
   return (
-    <li>
+    <li className={styles.item}>
       <article>
         <ArticleImage url={image._url} title={title} />
 
         <header>
-          <h1>{title}</h1>
+          <h1 className={styles.title}>{title}</h1>
         </header>
 
-        <p>{shortText}</p>
+        <p className={styles.content}>{shortText}</p>
 
-        <footer>
+        <footer className={styles.footer}>
           <address>By: {author}</address>
-          <time dateTime={year}>{date}</time>
+          <time className={styles.time} dateTime={year}>
+            {date}
+          </time>
         </footer>
       </article>
     </li>
